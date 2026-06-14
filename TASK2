@@ -1,0 +1,99 @@
+TASK 2: PHISHING AWARENESS TRAINING
+Title:Phishing Awareness Training Module
+Introduction
+Phishing is a cyberattack technique used by attackers to trick users into revealing sensitive information such as usernames, passwords, banking details, and personal information. Attackers often disguise themselves as trusted organizations or individuals to deceive victims.
+OBJECTIVES
+The training aims to:
+* Understand phishing attacks
+* Identify phishing emails and fake websites
+* Recognize social engineering techniques
+* Learn preventive measures
+* Improve security awareness
+Understanding Phishing Attacks
+Common types of phishing include:
+* Email phishing
+* SMS phishing (Smishing)
+* Voice phishing (Vishing)
+* Spear phishing (targeted attacks)
+* Clone phishing
+Recognizing Phishing Emails
+Characteristics of phishing emails:
+* Suspicious sender email address
+* Poor grammar or spelling mistakes
+* Urgent messages such as "Act immediately"
+* Requests for passwords or financial details
+* Unexpected attachments
+* Suspicious links
+Example:
+Fake email
+"Your account will be suspended within 24 hours. Click here to verify your details immediately."
+Red flags:
+* Urgency tactic
+* Unknown link
+* Sensitive information request
+Recognizing Fake Websites
+Signs of fake websites:
+Misspelled URLs
+Example:
+Real website:
+`www.paypal.com`
+Fake website:
+`www.paypaI.com`
+* Missing HTTPS security
+* Low-quality design
+* Unusual pop-ups
+* Unexpected redirects
+SOCIAL ENGINEERING TACTICS USED BY ATTACKERS
+Attackers manipulate people psychologically through:
+1. Fear tactics
+2. Urgency tactics
+3. Authority impersonation
+4. Fake rewards and prizes
+5. Curiosity-based messages
+6. Emotional manipulation
+Example:
+"Congratulations! You have won ₦500,000. Click here to claim your prize."
+Best Practices
+* Verify links before clicking
+* Enable multi-factor authentication
+* Use strong passwords
+* Keep systems updated
+* Never share confidential information
+* Use antivirus software
+* Verify suspicious messages
+Real-world Examples
+Example 1
+Bank phishing email:
+"Your bank account has been temporarily locked. Verify your account immediately."
+Indicators:
+* Pressure
+* Unknown URL
+* Sensitive information request
+Example 2:
+Fake online shopping site:
+"Limited-time offer: 90% discount on smartphones."
+Indicators:
+* Unrealistic offer
+* Suspicious URL
+* Poor website quality
+Interactive Quiz
+Question 1: Which is a common sign of phishing?
+A. Secure website
+B. Official company logo
+C. Urgent request for login details
+D. Expected email
+Answer: C
+Question 2: What should you do before clicking a link?
+A. Click immediately
+B. Verify the URL
+C. Share with friends
+D. Ignore all emails
+Answer: B
+Question 3: Which tactic do attackers commonly use?
+A. Encryption
+B. Authentication
+C. Urgency and fear
+D. Software updates
+Answer: C
+CONCLUSION
+Phishing awareness training improves users' ability to identify and avoid cyber threats. Regular education reduces the chances of successful phishing attacks.
