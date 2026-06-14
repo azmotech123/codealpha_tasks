@@ -1,0 +1,48 @@
+TASK 4: NETWORK INTRUSION DETECTION SYSTEM
+Title: Implementation of a Network Intrusion Detection System Using Snort
+Introduction
+A Network Intrusion Detection System (NIDS) monitors network traffic to identify suspicious activities and potential attacks.
+Tools commonly used:
+* Snort
+* Suricata
+Step 1: Installation
+Install Snort:
+sudo apt update
+sudo apt install snort
+Verify installation:
+snort -V
+Configure network settings:
+sudo nano /etc/snort/snort.conf
+Example:
+ipvar HOME_NET 192.168.1.0/24
+Step 2: Configure Rules and Alerts
+Create a custom rule:
+alert icmp any any -> $HOME_NET any (msg:"Ping detected"; sid:1000001; rev:1;)
+Save:
+/etc/snort/rules/local.rules
+Restart:
+```bash
+sudo systemctl restart snort
+```
+## Step 3: Monitor Network Traffic
+Run Snort:
+sudo snort -A console -q -c /etc/snort/snort.conf -i eth0
+The system continuously monitors traffic and displays alerts.
+Step 4: Response Mechanisms
+Responses include:
+* Alert notifications
+* Logging incidents
+* Blocking suspicious IPs
+Example:
+sudo iptables -A INPUT -s 192.168.1.100 -j DROP
+Step 5: Visualization Dashboard
+Tools:
+* Kibana
+* Grafana
+Dashboard features:
+* Attack trends
+* Alert graphs
+* Traffic monitoring
+* Threat statistics
+Conclusion
+The NIDS detects network threats early and improves overall system security.
